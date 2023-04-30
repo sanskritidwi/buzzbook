@@ -48,7 +48,7 @@ return ind !== id;
             <div className="e-form">
 
                 <form className="form-input" action='' onSubmit={handleSubmit}>
-                    <div className="form-title"><p>Employee List</p></div>
+                    <div className="form-title"><p>Contact List</p></div>
                     <div style={{ padding: '8px 25px 25px 25px' }}>
                         <div className="di-fl-co">
                             <label htmlFor="ename">Name*</label>

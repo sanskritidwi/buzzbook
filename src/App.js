@@ -1,5 +1,5 @@
-import {React,useState} from 'react';
-import logo from './logo.svg';
+import {React} from 'react';
+// import logo from './logo.svg';
 import './App.scss';
 import Employee from './components/Employee';
 import Header from './components/Header';

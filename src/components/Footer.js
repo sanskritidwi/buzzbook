@@ -10,15 +10,15 @@ function Footer() {
         <>
             <div className='footer'>
                 <div className='h-con' style={{ display: 'flex' }}>
-                   <div > <a href='https://drive.google.com/file/d/1zXlo1zWxoW2VuAGxS7173mvFWxtmsci8/view?usp=share_link' target="_blank" style={{display:'flex',alignItems:'center', marginRight:'50px'}}>
+                   <div > <a href='https://drive.google.com/file/d/1zXlo1zWxoW2VuAGxS7173mvFWxtmsci8/view?usp=share_link' target="_blank"  rel="noreferrer" style={{display:'flex',alignItems:'center', marginRight:'50px'}}>
                     <img src={girl} alt='img' width="24px"/>
                         Resume - Sanskriti                     
                         </a></div>
-                    <a href='https://www.linkedin.com/in/sanskriti-dwivedi-692630166/' target="_blank">
+                    <a href='https://www.linkedin.com/in/sanskriti-dwivedi-692630166/' target="_blank"  rel="noreferrer">
                         <img src={linkedin} alt='img' /> </a>
-                    <a href='https://github.com/sanskritidwi' target="_blank">
+                    <a href='https://github.com/sanskritidwi' target="_blank"  rel="noreferrer">
                         <img src={github} alt='img' /> </a>
-                    <a href='https://angel.co/u/sanskriti-dwivedi-2' target="_blank">
+                    <a href='https://angel.co/u/sanskriti-dwivedi-2' target="_blank" rel="noreferrer">
                         <img src={angellist} alt='img' /> </a>
                 </div>
             </div>

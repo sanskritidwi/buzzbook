@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/buzzbook/static/css/main.ae4419e7.css",
+    "main.js": "/buzzbook/static/js/main.8e51d698.js",
+    "static/js/787.3d1c1dfc.chunk.js": "/buzzbook/static/js/787.3d1c1dfc.chunk.js",
+    "static/media/foodcute.jpg": "/buzzbook/static/media/foodcute.dc2a2c8b4e8445e4eca2.jpg",
+    "index.html": "/buzzbook/index.html",
+    "main.ae4419e7.css.map": "/buzzbook/static/css/main.ae4419e7.css.map",
+    "main.8e51d698.js.map": "/buzzbook/static/js/main.8e51d698.js.map",
+    "787.3d1c1dfc.chunk.js.map": "/buzzbook/static/js/787.3d1c1dfc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae4419e7.css",
+    "static/js/main.8e51d698.js"
+  ]
+}

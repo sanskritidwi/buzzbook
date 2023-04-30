@@ -1,0 +1,210 @@
+* {
+  //font-size: px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  background-color: #fafafa;
+  background-image: url("./assets/foodcute.jpg");
+  //background-repeat: no-repeat;
+  // background-size: cover;
+  //background-repeat: no-repeat;
+}
+
+
+
+.di-fl-co {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.di-fl-ro {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.header {
+  background-color: #7932ba;
+  color: #ede7fa;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+
+  .h-con {
+    margin: 10px;
+  }
+}
+
+.footer {
+  background-color: #e1d4f5;
+  color: #7932ba;
+  font-size: 1rem;
+  display: flex;
+ justify-content: space-around;
+  align-items: center;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+
+  .h-con {
+    margin: 10px;
+    //margin-right: 30px;
+    //margin-left: auto;
+    a {
+      color: #7932ba;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    
+    a :hover {
+      color: #69cc2f;
+    }
+    img{
+      margin: 0px 10px 0px 10px;
+    }
+  }
+}
+
+
+.e-form {
+  border: 1px solid #f1f1f1;
+  width: 24vw;
+  background-color: #f4f6fe;
+  margin-left: 39%;
+  margin-top: 1%;
+  border-radius: 3px;
+
+  .form-title {
+    background-color: white;
+    font-weight: 700;
+    height: 50px;
+    display: flex;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    p {
+      margin-left: 20px !important;
+      color: #7932ba;
+    }
+  }
+
+  .form-input {
+    background-color: white;
+    //margin-top: 20px;
+    //padding: 15px;
+    height: 290px;
+
+
+    input[type=text] {
+      border: none;
+      border-bottom: 2px solid #7932ba;
+      outline: none;
+      margin: 10px;
+      font-size: 0.8rem;
+    }
+
+    input[type=email] {
+      border: none;
+      border-bottom: 2px solid #802fcc;
+      outline: none;
+      margin: 10px;
+      font-size: 0.8rem;
+    }
+
+    ::placeholder {
+      color: #d4d4d4;
+      opacity: 1;
+    }
+
+    label {
+      font-size: 0.95rem;
+      color: #969596;
+      font-weight: 500;
+      margin-left: -3px;
+      margin-top: 8px;
+    }
+  }
+
+}
+
+
+
+button {
+  background-color: #ede7fa !important;
+  color: #7932ba;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: max-content;
+  padding: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  float: right;
+ 
+}
+
+button :hover{
+  background-color: #7932ba !important;
+  color:  #ede7fa;
+  }
+
+.form-output {
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+
+  p {
+    margin: 4px;
+    margin-left: 20px;
+    width: fit-content;
+    font-size: 0.9rem;
+  }
+
+  .grey-p {
+    color: #969596;
+  }
+
+  .purple-p {
+    color: #7932ba;
+    font-weight: 600;
+  }
+}
+
+
+#style-7::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+#style-7::-webkit-scrollbar {
+  width: 5px;
+  background-color: #F5F5F5;
+}
+
+#style-7::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear,
+      left bottom,
+      left top,
+      color-stop(0.44, rgb(172, 95, 206)),
+      color-stop(0.72, rgb(163, 78, 202)),
+      color-stop(0.86, rgb(130, 44, 211)));
+}
+
+.scrollbar {
+  //margin-left: 30px;
+  float: left;
+  height: 150px;
+  width: 65px;
+  background: #eafffd;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}
